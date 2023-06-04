@@ -1,0 +1,3 @@
+[submodule "Dependencies/Third-Party/raylib-master"]
+	path = Dependencies/Third-Party/raylib-master
+	url = https://github.com/raysan5/raylib.git
