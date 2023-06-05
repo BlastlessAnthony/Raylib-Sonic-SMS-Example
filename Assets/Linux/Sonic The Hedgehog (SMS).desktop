@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Sonic-The-Hedgehog-SMS
+Exec=AppRun
+Icon=icon
+Type=Application
+Categories=Game;
+Terminal=false

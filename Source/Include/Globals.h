@@ -1,0 +1,8 @@
+#ifndef __SONIC_SMS_GLOBALS_H__
+#define __SONIC_SMS_GLOBALS_H__
+
+#define RESOLUTION_W 256
+#define RESOLUTION_H 192
+#define FRAMERATE 60
+
+#endif //__SONIC_SMS_GLOBALS_H__
