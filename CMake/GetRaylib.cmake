@@ -81,7 +81,7 @@ elseif (APPLE)
     file(GLOB_RECURSE RAYLIB_LIBS "${RAYLIB_BIN_DIR}/*.dylib")
 
 
-    target_link_libraries(${PORJECT_NAME} PRIVATE raylib -framework IOKit -framework Cocoa -framework OpenGL)
+    target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
 
 elseif (LINUX)
 
