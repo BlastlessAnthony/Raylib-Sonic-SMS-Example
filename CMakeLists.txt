@@ -7,6 +7,7 @@ project(
     LANGUAGES C
 )
 
+set(PARENT_LIST_PATH ${CMAKE_CURRENT_LIST_DIR})
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_LIST_DIR}/CMake")
 
@@ -22,7 +23,7 @@ set(PROJECT_SOURCES
 )
 
 set(PROJECT_RESOURCES
-    ""
+    "${PROJECT_RESOURCES_DIR}/sonic.png"
 )
 
 #The real "meat and potatos"
